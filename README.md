@@ -19,7 +19,7 @@ This structure keeps apps independent for easy scaling while sharing code via pa
 ## Quick Setup
 1. Install Node.js (version 20 or higher) from nodejs.org.
 2. Install pnpm: Run `npm install -g pnpm` in your terminal.
-3. Clone the repository: `git clone <your-repo-url> && cd uniportal`.
+3. Clone the repository: `git clone git@github.com:afrinxnahar/Turborepo-Fullstack-Starter-Template.git && cd Turborepo-Fullstack-Starter-Template`.
 4. Install dependencies: `pnpm install`.
 5. Set up environment: Copy `.env.example` to `.env` and fill in values (e.g., Supabase keys from your project dashboard).
 6. Start development: `pnpm run dev` — Opens frontend at http://localhost:3000 and backend at http://localhost:8000.
