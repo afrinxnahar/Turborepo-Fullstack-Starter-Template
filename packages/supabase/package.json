@@ -1,0 +1,22 @@
+{
+  "name": "@repo/supabase",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "supabase:dev": "pnpx supabase start",
+    "supabase:init": "pnpx supabase init",
+    "supabase:link": "pnpx supabase link --project-ref <your-project-ID>",
+    "supabase:pull": "pnpx supabase db pull",
+    "supabase:push": "pnpx supabase db push"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "catalog:"
+  },
+  "devDependencies": {
+    "supabase": "catalog:",
+    "typescript": "catalog:"
+  }
+}
